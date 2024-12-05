@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -7,19 +7,109 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
+            darkMode:"class", 
             theme: {
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                    },
+                    screens: {
+                        'xs': '320px'
                     }
                 }
             }
         }
     </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Amaliyot</title>
 </head>
 
 <body>
+
+    <nav class="container mx-auto w-10/12 flex justify-between items-center">
+        <div class="logo">BRAND</div>
+        <ul class="justify-between gap-3  xs:hidden lg:flex">
+            <li class="py-2 px-2 text-lg font-semibold hover:text-cyan-600">Home</li>
+            <li class="py-2 px-2 text-lg font-semibold hover:text-cyan-600">About</li>
+            <li class="py-2 px-2 text-lg font-semibold hover:text-cyan-600">Service</li>
+        </ul>
+        <div class="hamburger-menu text-xl xs:block  lg:hidden">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container mx-auto w-10/12 grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+            <div class="col-span-1 shadow-lg p-3 rounded-lg border">
+                <img src="https://storage.kun.uz/source/thumbnails/_medium/10/AME0sPiV2jTTx-BO5SGte2GelMAHKy4M_medium.jpg"
+                    alt="image" class="w-full h-[200px]">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quae vel tempora, tenetur harum
+                    incidunt iste nisi ex quis nulla ipsam quo quam, quasi cupiditate eveniet soluta perspiciatis ipsum?
+                    Incidunt?
+                </p>
+                <div>
+                    <p>15 yanvar 2023 y, 15:32</p>
+                    <p><i class="fa-solid fa-eye"></i> <span>15 254</span></p>
+                </div>
+            </div>
+            <div class="col-span-1 shadow-lg p-3 rounded-lg border">
+                <img src="https://storage.kun.uz/source/thumbnails/_medium/10/AME0sPiV2jTTx-BO5SGte2GelMAHKy4M_medium.jpg"
+                    alt="image" class="w-full h-[200px]">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quae vel tempora, tenetur harum
+                    incidunt iste nisi ex quis nulla ipsam quo quam, quasi cupiditate eveniet soluta perspiciatis ipsum?
+                    Incidunt?
+                </p>
+                <div>
+                    <p>15 yanvar 2023 y, 15:32</p>
+                    <p><i class="fa-solid fa-eye"></i> <span>15 254</span></p>
+                </div>
+            </div>
+            <div class="col-span-1 shadow-lg p-3 rounded-lg border">
+                <img src="https://storage.kun.uz/source/thumbnails/_medium/10/AME0sPiV2jTTx-BO5SGte2GelMAHKy4M_medium.jpg"
+                    alt="image" class="w-full h-[200px]">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quae vel tempora, tenetur harum
+                    incidunt iste nisi ex quis nulla ipsam quo quam, quasi cupiditate eveniet soluta perspiciatis ipsum?
+                    Incidunt?
+                </p>
+                <div>
+                    <p>15 yanvar 2023 y, 15:32</p>
+                    <p><i class="fa-solid fa-eye"></i> <span>15 254</span></p>
+                </div>
+            </div>
+            <div class="col-span-1 shadow-lg p-3 rounded-lg border">
+                <img src="https://storage.kun.uz/source/thumbnails/_medium/10/AME0sPiV2jTTx-BO5SGte2GelMAHKy4M_medium.jpg"
+                    alt="image" class="w-full h-[200px]">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quae vel tempora, tenetur harum
+                    incidunt iste nisi ex quis nulla ipsam quo quam, quasi cupiditate eveniet soluta perspiciatis ipsum?
+                    Incidunt?
+                </p>
+                <div>
+                    <p>15 yanvar 2023 y, 15:32</p>
+                    <p><i class="fa-solid fa-eye"></i> <span>15 254</span></p>
+                </div>
+            </div>
+            <div class="col-span-1 shadow-lg p-3 rounded-lg border">
+                <img src="https://storage.kun.uz/source/thumbnails/_medium/10/AME0sPiV2jTTx-BO5SGte2GelMAHKy4M_medium.jpg"
+                    alt="image" class="w-full h-[200px]">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quae vel tempora, tenetur harum
+                    incidunt iste nisi ex quis nulla ipsam quo quam, quasi cupiditate eveniet soluta perspiciatis ipsum?
+                    Incidunt?
+                </p>
+                <div>
+                    <p>15 yanvar 2023 y, 15:32</p>
+                    <p><i class="fa-solid fa-eye"></i> <span>15 254</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
 
 </body>
 
